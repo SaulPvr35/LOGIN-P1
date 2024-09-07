@@ -28,6 +28,7 @@ h1 {
 }
 
 .input-group {
+    position: relative;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -36,6 +37,14 @@ h1 {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+}
+
+.input-group input:focus {
+    /* Cambia el color del borde al enfocar */
+    border-color: #007bff; 
+    outline: none;
+    /* Añade una sombra de enfoque */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
 }
 
 .input-group input {
@@ -54,6 +63,8 @@ h1 {
     border-radius: 10px;
     cursor: pointer;
     width: 100%;
+    /* Agregue una breve animacion */
+    /* transition: background-color 0.3s ease; */
 }
 
 .btn:hover {
