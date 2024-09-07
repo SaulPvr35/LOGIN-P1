@@ -1,0 +1,61 @@
+
+body {
+    font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif; /* Fuente moderna y legible */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Fondo con gradiente suave */
+    background: linear-gradient(135deg, #5d3aad, #e0e0e0); 
+    margin: 10px;
+}
+
+/* Estilo y estructura del contenido */
+
+.login-container {
+    background: #9a49b9;
+    padding: 200px;
+    border-radius: 80px;
+    box-shadow: 5 5 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin: center;
+    /* margin-top: 10px; */
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccca2;
+    border-radius: 10px;
+}
+
+
+.btn {
+    background-color: #007bff;
+    color: #000000;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #ea00ff;
+}
